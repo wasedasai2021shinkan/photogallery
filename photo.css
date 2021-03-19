@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+    background-color: #eaf4fc;
+}
+
+
+.flex_test-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #eaf4fc;     /* 背景色指定 */
+    padding:  10px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex_test-item {
+    color:  #fff;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    align-self: stretch;        /* 縦の位置指定 */
+    width: 25%;
+}
+.flex_test-item img {
+    width: 100%;                /* 画像サイズ指定 */
+}
+
+.moji {
+    color: #17183B;
+    font-family: serif;
+}
+  
+footer {
+    background-color: #78c1cd;
+    text-align: center;
+    padding: 26px 0;
+    text-decoration: none;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: serif;
+}
+.wrapper2 {
+    background-color: #78c1cd;
+    justify-content: space-around;
+}
+
+
+.innerbox {
+    margin-top: 5px;
+    background-color: #78c1cd;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerlogo{
+    margin-top: 5px;
+    margin: 10px auto;
+}
